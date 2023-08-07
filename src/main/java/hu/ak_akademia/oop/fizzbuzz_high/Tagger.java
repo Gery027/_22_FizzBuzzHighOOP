@@ -1,5 +1,7 @@
 package hu.ak_akademia.oop.fizzbuzz_high;
 
 public interface Tagger {
-    void createTag(int num);
+    static int i = 30;
+
+    static void createTag(int num);
 }
